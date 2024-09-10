@@ -1,0 +1,16 @@
+{
+  "dataset": [
+    {
+      "question": "Doctor, I have been experiencing a cough and some abnormal movement of my eyelid. I have also noticed some symptoms with my eyes.",
+      "answer": "It seems like you might have stenosis of the tear duct, which is causing blockage of tears from draining properly and leading to the symptoms you are describing. We will need to perform some tests to confirm this."
+    },
+    {
+      "question": "Doctor, I've been experiencing Coryza lately, any idea what could be causing it?",
+      "answer": "It's most likely due to seasonal allergies, also known as hay fever."
+    },
+    {
+      "question": "Doctor, I've been feeling really weak lately and my heart rate seems to have decreased. Do you have any idea what could be causing this?",
+      "answer": "Yes, based on your symptoms and medical history, it seems you may be suffering from Cushing syndrome."
+    }
+  ]
+}

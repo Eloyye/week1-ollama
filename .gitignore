@@ -1,0 +1,12 @@
+error.txt
+datasets/
+deliverables/day2/sentiment_analysis_*
+deliverables/day2/text_generation_*
+deliverables/day2/summarization_*
+**/__pycache__/
+.idea/
+.idea/misc.xml
+.venv/
+**/env.py
+llama.cpp/
+**.gguf

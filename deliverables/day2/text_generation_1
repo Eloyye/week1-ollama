@@ -1,0 +1,167 @@
+==================================================
+Test Type: Text Generation
+--------------------------------------------------
+Model: mistral:latest
+original text: Write a poem in the style of Shakespeare about the glory of piracy
+response time: 47.472225083000005
+result:  Upon the briny deep, where Neptune's wrath
+
+Lies hidden beneath waves that hide his scorn,
+
+There roam the black-hearted sons of death and stealth,
+
+Pirate lords, who scoff at dawn's bright morn.
+
+Upon their shoulders rests a heavy creed,
+
+Of freedom wild, of gold and plunder vast,
+
+For they are spirits borne of salt seas fed,
+
+Whose souls can never be confined nor cast.
+
+With flags aloft that fly in stormy gale,
+
+They sail the skies with vengeance in their wake,
+
+Upon the winds, their spirits set to sail,
+
+Their hearts a-throb with passion and their spake.
+
+"Hark ye, my comrades brave, let us unsheathe
+
+The cutlass sharp, the pistol at the ready,
+
+For we have sworn on oceans deep to meet
+
+The fiends of law who seek our lives to take.
+
+We'll board their ships with cries of 'Scatter!' and 'Yield!'
+
+And plunder gold where treasures lie in wait,
+
+And leave behind us naught but fear and wail,
+
+Our names forever etched upon the fate."
+
+So sail they forth to claim what is their due,
+
+To carve their mark upon the endless sea.
+
+For though our days be numbered as the few,
+
+We'll live them proudly, wild and wild and free.
+==================================================
+==================================================
+Test Type: Text Generation
+--------------------------------------------------
+Model: phi3:latest
+original text: Write a poem in the style of Shakespeare about the glory of piracy
+response time: 36.835500999999994
+result: Ode to Neptune's Crew, with hearts so free and bold,
+
+In tales of yore and legends untold.
+
+On high seas wide where horizons meet askew,
+
+Brave buccaneers sail 'neath skies blue hue.
+
+
+With sails that catch the wind's mighty roar,
+
+Our gallant ship from shore to distant lore does soar.
+
+We plunder not for gold nor riches dire and grim,
+
+But for freedom’s sweet embrace without guilt or crime.
+
+
+A life of liberty we choose with every swell's crest,
+
+In the artful dance where pirates are blessed.
+
+No crown demands our loyalty; no land holds sway
+
+For on these waves and deeds alone do we stay.
+
+
+Yet fear not for treasure lost or bounties to be claimed,
+
+Our greatest wealth lies in unity remaimed.
+
+Shiver me timbers with camaraderie's might!
+
+In the ship’s heart where daylight dareth never light.
+
+
+Forsooth we thrive not by conquest or woe,
+
+But 'midst raucous laughter and tales of yore that flow.
+
+A world beyond society's strict decree –
+
+Where every man’s voice matters with equal degree.
+
+
+Yet shadows cast o'er hearts unkind do loom,
+
+For not all men seek the sea as their home or room.
+
+Still let us sail beyond horizon and time,
+
+In Neptune’s realm where we find our prime.
+
+
+Let every siren song that calls to hearts of steel
+
+Remind thee this life's not just about piracy zeal:
+
+It lies in the freedom found amidst a brine-soaked breeze,
+
+In Neptune’s embrace where one can truly be at ease.
+
+
+For even as we chase horizons yet unknown
+
+Let not our souls to loneliness or fear groan:
+
+United in freedom's unyielding hold,
+
+We are pirates true and tales forever told.
+==================================================
+==================================================
+Test Type: Text Generation
+--------------------------------------------------
+Model: gemma2:2b
+original text: Write a poem in the style of Shakespeare about the glory of piracy
+response time: 19.977078542
+result: **The Jolly Pirate's Song**
+
+Hark, ye knaves and landlubbers, gather 'round!
+A tale I tell, of freedom, bold and profound.
+Of salty spray upon our weathered cheek,
+And boundless seas where pirates dare to speak.
+
+With ship in tow, a black flag high we fly,
+The sun doth scorch us as we soar the sky.
+On every mast, a sword does gleam so bright,
+A challenge posed to merchant ships' cruel plight.
+
+For who are they, these pompous lords on land,
+To steal our wealth, command and take with hand?
+Their laws are naught, their greed a hollow curse,
+While we, the free, will leave them in their verse!
+
+With every plundered chest, a pirate's cheer,
+We dance and sing upon the ocean's ear.
+No king or lord can bind our souls to chains,
+For freedom sings, a melody that stains
+The very heart of those who fear the sea,
+The Jolly Pirate's song, forever free!
+
+So raise a glass, ye comrades brave and bold,
+To life on waves, where tales are yet untold.
+With every storm, with every whispered breeze,
+We sail on, pirates, beneath the starry seas!
+
+==================================================

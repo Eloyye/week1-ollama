@@ -1,0 +1,42 @@
+==================================================
+Test Type: Summarization
+--------------------------------------------------
+Model: mistral:latest
+original text:  My uncle got stabbed and I still laugh about it to this day.
+CONTENT WARNING: VIOLENCE/DEATH
+
+My family has a long history of domestic violence on my dad’s side. My grandfather wasn’t a nice man and neither are most of my uncles. My one uncle, let’s call him Bill for this story. My uncle Bill started dating this young girl. Young for him. He was 38 and she’s was 24. They seemed to have a good time drinking and partying but as time went on his true colors started to surface. This leads me to the day in question. My uncle Bill in his infinite wisdom decided he was going to beat this girl. He started and she bit him, she bit him in the thumb, clear down to the bone and then she stabbed him multiple times, literally in the back and left him in a bloody puddle on his front porch. The ambulance and police came. My dad called them. Bill lived but it knocked some of the arrogance out of him. She went to jail for a bit and I took care of her cat while she was in there. I haven’t seen her for years but every time I see him at thanksgiving or Christmas, I remember that this happened and I can’t help but laugh. The true definition of FAFO.
+
+response time: 25.483241084
+result:  {summary: "Uncle was stabbed by his girlfriend due to domestic violence; the event is now a source of dark humor for the narrator.", topic: "Domestic Violence"}
+==================================================
+==================================================
+Test Type: Summarization
+--------------------------------------------------
+Model: phi3:latest
+original text:  My uncle got stabbed and I still laugh about it to this day.
+CONTENT WARNING: VIOLENCE/DEATH
+
+My family has a long history of domestic violence on my dad’s side. My grandfather wasn’t a nice man and neither are most of my uncles. My one uncle, let’s call him Bill for this story. My uncle Bill started dating this young girl. Young for him. He was 38 and she’s was 24. They seemed to have a good time drinking and partying but as time went on his true colors started to surface. This leads me to the day in question. My uncle Bill in his infinite wisdom decided he was going to beat this girl. He started and she bit him, she bit him in the thumb, clear down to the bone and then she stabbed him multiple times, literally in the back and left him in a bloody puddle on his front porch. The ambulance and police came. My dad called them. Bill lived but it knocked some of the arrogance out of him. She went to jail for a bit and I took care of her cat while she was in there. I haven’t seen her for years but every time I see him at thanksgiving or Christmas, I remember that this happened and I can’t help but laugh. The true definition of FAFO.
+
+response time: 15.874791083000002
+result: {summary: "Uncle Bill's violent altercation with a young girl in his family leads to both parties being injured; he survives while the incident humbles him, creating lasting memories that provoke laughter.", topic: "Family Violence"}
+==================================================
+==================================================
+Test Type: Summarization
+--------------------------------------------------
+Model: gemma2:2b
+original text:  My uncle got stabbed and I still laugh about it to this day.
+CONTENT WARNING: VIOLENCE/DEATH
+
+My family has a long history of domestic violence on my dad’s side. My grandfather wasn’t a nice man and neither are most of my uncles. My one uncle, let’s call him Bill for this story. My uncle Bill started dating this young girl. Young for him. He was 38 and she’s was 24. They seemed to have a good time drinking and partying but as time went on his true colors started to surface. This leads me to the day in question. My uncle Bill in his infinite wisdom decided he was going to beat this girl. He started and she bit him, she bit him in the thumb, clear down to the bone and then she stabbed him multiple times, literally in the back and left him in a bloody puddle on his front porch. The ambulance and police came. My dad called them. Bill lived but it knocked some of the arrogance out of him. She went to jail for a bit and I took care of her cat while she was in there. I haven’t seen her for years but every time I see him at thanksgiving or Christmas, I remember that this happened and I can’t help but laugh. The true definition of FAFO.
+
+response time: 10.548191207999999
+result: ```json
+{
+ "summary": "Family history of violence leads to an assault and aftermath.",
+ "topic": "Violence"
+}
+```
+
+==================================================

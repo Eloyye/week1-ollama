@@ -1,0 +1,7 @@
+ollama==0.3.2
+bitsandbytes
+peft
+trl
+accelerate
+datasets
+transformers

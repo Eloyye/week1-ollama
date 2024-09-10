@@ -1,0 +1,13 @@
+gcloud beta run deploy medbot2 \
+--image us-west2-docker.pkg.dev/strong-skyline-435005-f4/medicalbot/medbot2 \
+--concurrency 4 \
+--cpu 8 \
+--set-env-vars OLLAMA_NUM_PARALLEL=4 \
+--gpu 1 \
+--gpu-type nvidia-tesla-t4 \
+--max-instances 2 \
+--memory 32Gi \
+--no-allow-unauthenticated \
+--no-cpu-throttling \
+--service-account medbotOllama@strong-skyline-435005-f4.iam.gserviceaccount.com \
+--timeout=600

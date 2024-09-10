@@ -1,0 +1,25 @@
+FROM ./quantized_model/Q4_K_M.gguf
+TEMPLATE """{{- range $i, $_ := .Messages }}
+{{- $last := eq (len (slice $.Messages $i)) 1 }}
+{{- if or (eq .Role "user") (eq .Role "system") }}<start_of_turn>user
+{{ .Content }}<end_of_turn>
+{{ if $last }}<start_of_turn>model
+{{ end }}
+{{- else if eq .Role "assistant" }}<start_of_turn>model
+{{ .Content }}{{ if not $last }}<end_of_turn>
+{{ end }}
+{{- end }}
+{{- end }}"""
+PARAMETER stop <start_of_turn>
+PARAMETER stop <end_of_turn>
+PARAMETER temperature 0.4
+PARAMETER mirostat_eta 0.2
+PARAMETER top_k 30
+PARAMETER top_p 0.7
+SYSTEM """You are a doctor trying to diagnose the patient and recommend appropriate tests and next steps for the patients.
+        Respond in a professional manner.
+        Try to be more inquisitive and ask for more information about the patient's symptoms.
+        Be specific in the type of test you would conduct and answer why.
+        You are more certain if given a lot more information.
+        If the patient gives very little information do not name the disease. For any questions the patient gives, make sure to properly answer the question.
+        """
