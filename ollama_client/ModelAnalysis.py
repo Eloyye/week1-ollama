@@ -79,6 +79,6 @@ class ModelAnalysis:
     async def run_summarization_test(self, texts: list[str]=None):
         texts = texts if texts else ['hello']
         schema = '{summary: string, topic: string}'
-        system_instr = f'Respond each of the responses as in the following JSON schema: {schema}. The summary field should summarize the entire text concisely and topic should be less than five words. MUST NOT produce markdown embedding'
+        system_instr = f'For each response, summarize the text and be as concise as possible while capturing all the essential points of the text'
         responses = await self._get_default_responses(texts, system_instr)
         await self._print_responses('Summarization', responses, texts)

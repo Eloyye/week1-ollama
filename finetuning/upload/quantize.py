@@ -1,6 +1,7 @@
 import os
 
-from finetuning.upload.env import OLLAMA_CPP_PATH
+from finetuning.env import OLLAMA_CPP_PATH
+
 
 def quantize_files(methods, quantized_path):
   for m in methods:

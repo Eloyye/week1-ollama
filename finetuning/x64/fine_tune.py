@@ -7,7 +7,7 @@ from transformers import BitsAndBytesConfig, AutoModelForCausalLM, AutoTokenizer
 import bitsandbytes as bnb
 from trl import SFTTrainer
 
-from finetuning.x64.env import hf_token
+from finetuning.env import hf_token
 
 
 class GemmaPrompt:

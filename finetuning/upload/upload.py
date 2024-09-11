@@ -2,8 +2,7 @@ import os
 
 from huggingface_hub import snapshot_download
 
-from finetuning.upload.env import OLLAMA_CPP_PATH
-from finetuning.upload.ollama_cl import export_to_ollama
+from finetuning.env import OLLAMA_CPP_PATH
 from finetuning.upload.quantize import quantize_files
 
 
